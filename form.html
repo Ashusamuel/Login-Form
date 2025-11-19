@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <!-- Text Input -->
+        <label> First Name:</label>
+        <input type="text" placeholder="Enter First Name" /><br/><br/>
+
+        <label> Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" /><br/><br/>
+
+        <label> Email:</label>
+        <input type="email" placeholder="Enter Your Email"><br/><br/>
+
+        <label> Password:</label>
+        <input type="password" placeholder="Enter Your Password"><br/><br/>
+
+        <!-- Gender Radio Buttons -->
+        <label> Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br/><br/>
+
+        <!-- Age Dropdown -->
+        <label> Age:</label>
+        <select>
+            <option value="below18">Below 18</option>
+            <option value="18-30">18-30</option>
+            <option value="31-50">31-50</option>
+            <option value="above50">Above 50</option>
+        </select><br/><br/>
+
+        <!-- Preferences -->
+         <label> Preferences:</label><br/>
+         <input type="checkbox">Acrylic Painting<br/>
+         <input type="checkbox">Oil Painting<br/>
+         <input type="checkbox">Watercolor Painting<br/><br/>
+
+         <!-- Occupation  dropdown -->
+          <label>Select Occupation:</label>
+          <select>
+            <option>Student</option>
+            <option>Employer</option>
+            <option>Freelancer</option>
+          </select><br/><br/>
+
+          <!--Bio (Text Area)-->
+          <label>Bio</label><br/>
+          <textarea rows="4" cols="50" placeholder="share few lines about yourself...."></textarea>
+          <br/><br/>
+
+          <!--Button-->
+          <button>RESET</button>
+          <button>SUBMIT</button>
+    </form>
+</body>
+</html>
